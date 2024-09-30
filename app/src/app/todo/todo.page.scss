@@ -1,0 +1,33 @@
+ion-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .form-container {
+    width: 90vh; 
+    margin-top: 5vh;
+  
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: auto;
+    text-align: center; /* Center the text */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #ffffff; /* Background color */
+  }
+  
+  ion-list {
+    margin-top:  5vh; /* Spacing around the list */
+  }
+  
+  ion-button {
+    margin-top: 10px; /* Space above the button */
+    background-color: #3880ff; /* Button color */
+    color: white; /* Button text color */
+    
+    &:hover {
+      background-color: #3171e0; /* Darker on hover */
+    }
+  }

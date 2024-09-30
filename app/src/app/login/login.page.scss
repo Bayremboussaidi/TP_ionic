@@ -1,0 +1,59 @@
+ion-content {
+    --background: #0a0b0b; /* Light background color for the content */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%; /* Ensure container takes full height */
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    border-radius: 8px; /* Optional: round corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+    max-width: 400px; /* Limit width for better appearance */
+    margin: auto; /* Center the form on the page */
+  }
+  
+  h2 {
+    font-weight: bold;
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #333; /* Darker color for better readability */
+  }
+  
+  ion-item {
+    margin-bottom: 20px; /* Spacing between input fields */
+  }
+  
+  ion-label {
+    color: #666; /* Lighter color for labels */
+  }
+  
+  ion-button {
+    background-color: #3880ff; /* Blue background for the button */
+    color: white; /* White text color for contrast */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-weight: bold; /* Bold text for buttons */
+  }
+  
+  ion-button:disabled {
+    background-color: #c1c1c1; /* Gray background when disabled */
+  }
+  
+  .footer-text {
+    margin: 20px 0; /* Spacing above and below footer text */
+    text-align: center; /* Center the text */
+    color: #0a0b0b;
+  }
+  
+  .footer-text a,
+  a {
+    color: #3880ff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-text a:hover,
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

@@ -28,6 +28,10 @@ const routes: Routes = [
     path: 'forget',
     loadChildren: () => import('./forget/forget.module').then( m => m.ForgetPageModule)
   },
+  {
+    path: 'todo',
+    loadChildren: () => import('./todo/todo.module').then( m => m.TodoPageModule)
+  },
 ];
 
 @NgModule({
